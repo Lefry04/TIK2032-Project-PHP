@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .image {
+            margin-top: 10%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+        }
+
+        h1 {
+            font-size: 41px;
+            margin-bottom: 0;
+        }
+
+        .box-right,
+        .box-left {
+            background: #E2E2B6;
+            height: 524px;
+            width: 100%;
+            border-radius: 24px;
+            margin: 80px;
+            position: relative;
+            font-size: 18px;
+        }
+
+        .box-right img {
+            height: 100%;
+            width: 50%;
+            right: 0;
+            position: absolute;
+            border-radius: 0 24px 24px 0;
+            object-fit: cover;
+        }
+
+        .box-left img {
+            height: 100%;
+            width: 50%;
+            left: 0;
+            position: absolute;
+            border-radius: 24px 0 0 24px;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .teks {
+            display: flex;
+            color: #03346E;
+            flex-direction: column;
+            height: 100%;
+            justify-content: center;
+            margin-left: 4%;
+        }
+
+        .box-left .teks {
+            margin-left: 53%;
+        }
+
+
+        .teks h2 {
+            font-size: 40px;
+            margin: 0;
+        }
+    </style>
+    <title>Gallery</title>
+</head>
+
+<body>
+    <div class="nav-bar">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <section class="image">
+        <div class="title">
+            <h1>My Post</h1>
+            <div class="line"></div>
+        </div>
+        <div class="box-right">
+            <img src="img/Screenshot 2025-02-20 at 21.30.36.jpeg" alt="Gambar Asli" width="200px">
+            <div class="teks">
+                <h2>Nongki di Bi Eem</h2>
+                <p>Hari kedua di Bandung minimal pergi ke tempatnya Dilan.</p>
+            </div>
+        </div>
+        <div class="box-left">
+            <img src="img/bromo.jpeg" alt="Gambar Asli" width="200px">
+            <div class="teks">
+                <h2>Bromo</h2>
+                <p>Modul nusantara PMM 4 UB yang terakhir ke Bromo.</p>
+            </div>
+        </div>
+        <div class="box-right">
+            <img src="img/blok m.jpeg" alt="Gambar Asli" width="200px">
+            <div class="teks">
+                <h2>Blok M</h2>
+                <p>Setiap hari selesai magang keluyuran ke Blok M</p>
+            </div>
+        </div>
+        <div class="box-left">
+            <img src="img/PIK.JPG" alt="Gambar Asli" width="200px">
+            <div class="teks">
+                <h2>PIK</h2>
+                <p>Sebelum nongki di PIK ada drama-drama.</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
